@@ -4,5 +4,19 @@
   <router-outlet></router-outlet>
 </div>
 
-
+<table>
+  <thead>
+<th>Index</th>
+<th>Name</th>
+<th>First</th>
+<th>Second</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let a of array">
+      <td>
+        {{a.id}}
+      </td>
+    </tr>
+  </tbody>
+</table>
 

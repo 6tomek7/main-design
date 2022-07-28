@@ -8,6 +8,7 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
 import { CartService } from './cart.service';
 import { ConfigComponent } from './config/config.component';
 import { AppRoutingModule, RoutingComponents } from './app-routing.module';
+import { CommonModule } from '@angular/common';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AppRoutingModule, RoutingComponents } from './app-routing.module';
     BrowserModule,
     ReactiveFormsModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule
   ],
 
   declarations: [
