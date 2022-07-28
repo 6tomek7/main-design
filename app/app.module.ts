@@ -12,7 +12,6 @@ import { CartComponent } from './cart/cart.component';
 import { CartService } from './cart.service';
 import { ShippingComponent } from './shipping/shipping.component';
 import { ConfigComponent } from './config/config.component';
-import { ProductsWithJsonComponent } from './products-with-json/products-with-json.component';
 
 
 @NgModule({
@@ -27,7 +26,6 @@ import { ProductsWithJsonComponent } from './products-with-json/products-with-js
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent },
-      { path: 'products-with-json', component: ProductsWithJsonComponent}
     ]),
   ],
 
@@ -40,7 +38,6 @@ import { ProductsWithJsonComponent } from './products-with-json/products-with-js
     CartComponent,
     ShippingComponent,
     ConfigComponent,
-    ProductsWithJsonComponent,
   ],
   bootstrap: [AppComponent],
 })

@@ -12,10 +12,6 @@ export class CartService {
   getShippingPrices() {
     return this.http.get<{type: string, price: number, sss: number}[]>('/assets/shipping.json');
   }
-
-  getProducts() {
-    return this.http.get<{id: number, name: string, price: number, description: string}[]>('/assets/products.json');
-  }
   
  
 /* . . . */
